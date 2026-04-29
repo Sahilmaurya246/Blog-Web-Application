@@ -1,0 +1,116 @@
+#profile-container-box{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+#profile_circle-name {
+  width: 70px;
+  height: 70px;
+  background-color: #7be0c4;
+  border-radius: 50%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 700px;
+  background-color: rgb(255, 253, 253);
+  color: #0b0b0b;
+}
+
+#main-name-profile{
+  margin-top: 5px;
+  margin-left: 675px;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+#blog-writer-profile{
+  margin-top: 5px;
+  margin-left: 630px;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+#edit-blog-profile{
+  margin-top: 10px;
+  margin-left: 660px;
+  font-size: 20px;
+  height: 40px;
+  width: 150px;
+}
+
+#post-profile-allshow{
+  margin-top: 10px;
+  margin-left: 320px;
+
+}
+
+#blog-box-profile{
+  height: 200px;
+  width: 900px;
+  margin: 50px 0 0 300px;
+  height:auto;
+  padding: 20px 20px 10px 30px;
+  border-radius:20px;
+  box-shadow:0px 10px 20px rgba(0,0,10,0.08);
+  transition:0.3s;
+}
+
+.tital-profile-box{
+  padding: 10px 0 10px 0px;
+  font-size:26px;
+  font-weight:600;
+  color:#b22222;
+  margin-bottom:10px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+.tital-profile-content{
+  padding: 20px 0 10px 30px;
+  font-size:16px;
+  color:black;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+.author{
+  font-size:16px;
+  font-weight:500;
+  padding:10px 20px 0 20px ;
+  
+}
+
+.blog-edit-delete-profile{
+  height: 50px;
+}
+
+
+.fa-pen-to-square{
+  color: blue;
+  cursor: pointer;
+}
+
+.fa-trash{
+  color: #b22222;
+  cursor: pointer;
+}
+
+
+#save-edit-post{
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-right:20px;
+  margin-top: 40px;
+}

@@ -1,0 +1,131 @@
+#body-box{
+    /* background-color: whitesmoke; */
+    height: 100%;
+    width: 100%;
+    
+}
+
+#title-box{
+    display: flex;
+    height: 200px;
+    /* background-color: aqua; */
+
+    
+}
+
+#plus-icon{
+    /* display: inline-block; */
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    color: white;
+    font-size: 40px;
+    margin: 100px 0 0 100px;
+}
+    
+#filling{
+    display: inline-block;
+    height: 70px;
+    width: 1000px;
+    margin: 100px 0 0 10px;
+    border-radius: 15px;
+    padding: 0 10px;
+    font-size: 30px;
+}
+
+
+#Descriptions-box{
+    display: flex;     
+    height: 70px;   
+
+}
+
+#descriptions-filling{
+    display: inline-block;
+    height: 50px;
+    width: 1000px;
+    margin: 10px 0 0 20px;
+    border-radius: 15px;
+    padding: 12px 0 0 10px;
+    font-size: 20px;   
+    
+}
+
+#plus-icon2{   
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    color: white;
+    font-size: 40px;
+    margin: 10px 0 0 100px;
+}
+
+.box-menu-icons{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.box-menu-icons i{
+    width: 35px;
+    height: 35px;
+    border: 2px solid green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box-menu-icons i:hover{
+    background-color: green;
+    color: white;
+}
+
+
+#write-header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;   
+    align-items: center; 
+    padding: 50px 40px; 
+    position: relative;
+    font-size: 25px;
+   
+}
+
+#write-header ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;                        
+}
+
+#heading-headerfile{
+    padding-right: 700px;
+}
+
+.submit-button{
+    cursor: pointer;
+}
+
+.submit-button button{
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #c9e5c9;
+    
+}
