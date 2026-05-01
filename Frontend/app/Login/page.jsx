@@ -17,7 +17,7 @@ function Login() {
   const handleLogin = async (e) => {
   e.preventDefault();
 
-  const res = await fetch("http://127.0.0.1:8000/auth/login", {
+  const res = await fetch("https://blog-web-application-3-52p1.onrender.com/auth/login", {
     method: "POST",
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify({ email, password })
@@ -44,7 +44,7 @@ function Login() {
   const handleSignup = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("http://127.0.0.1:8000/auth/signup", {
+    const res = await fetch("https://blog-web-application-3-52p1.onrender.com/auth/signup", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"

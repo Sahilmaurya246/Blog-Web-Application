@@ -34,7 +34,7 @@ function Write() {
     return;
   }
 
-  const res = await fetch("http://127.0.0.1:8000/posts/", {
+  const res = await fetch("https://blog-web-application-3-52p1.onrender.com/posts/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

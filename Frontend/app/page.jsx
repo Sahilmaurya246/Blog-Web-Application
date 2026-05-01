@@ -8,7 +8,7 @@ function Home() {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const res = await fetch("http://127.0.0.1:8000/posts/");
+        const res = await fetch("https://blog-web-application-3-52p1.onrender.com/posts/");
         const data = await res.json();
 
         if (res.ok) {

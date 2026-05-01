@@ -22,7 +22,7 @@ function Profile() {
         return;
       }
       try {
-        const res = await fetch("http://127.0.0.1:8000/posts/my-posts", {
+        const res = await fetch("https://blog-web-application-3-52p1.onrender.com/posts/my-posts", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -52,7 +52,7 @@ function Profile() {
   const handleSave = async (post_id) => {
     const token = localStorage.getItem("token");
 
-    const res = await fetch(`http://127.0.0.1:8000/posts/${post_id}`, {
+    const res = await fetch(`https://blog-web-application-3-52p1.onrender.com/${post_id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -84,7 +84,7 @@ function Profile() {
   const handleDelete = async (post_id) => {
     const token = localStorage.getItem("token");
 
-    const res = await fetch(`http://127.0.0.1:8000/posts/${post_id}`, {
+    const res = await fetch(`https://blog-web-application-3-52p1.onrender.com/${post_id}`, {
       method: "DELETE",
       headers: {
         Authorization: `Bearer ${token}`,
