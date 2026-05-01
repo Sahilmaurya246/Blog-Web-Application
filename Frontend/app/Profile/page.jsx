@@ -52,7 +52,7 @@ function Profile() {
   const handleSave = async (post_id) => {
     const token = localStorage.getItem("token");
 
-    const res = await fetch(`https://blog-web-application-3-52p1.onrender.com/${post_id}`, {
+    const res = await fetch(`https://blog-web-application-3-52p1.onrender.com/posts/${post_id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -84,7 +84,7 @@ function Profile() {
   const handleDelete = async (post_id) => {
     const token = localStorage.getItem("token");
 
-    const res = await fetch(`https://blog-web-application-3-52p1.onrender.com/${post_id}`, {
+    const res = await fetch(`https://blog-web-application-3-52p1.onrender.com/posts/${post_id}`, {
       method: "DELETE",
       headers: {
         Authorization: `Bearer ${token}`,
