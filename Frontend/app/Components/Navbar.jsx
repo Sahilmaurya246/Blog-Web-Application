@@ -65,14 +65,6 @@ function Navbar() {
                       <i className="fa-solid fa-user"></i> Profile
                     </Link>
 
-                    {/* <Link href="/dashboard" onClick={() => setMenu(false)}>
-                      <i className="fa-solid fa-table-columns"></i> Dashboard
-                    </Link>
-
-                    <Link href="/settings" onClick={() => setMenu(false)}>
-                      <i className="fa-solid fa-gear"></i> Settings
-                    </Link> */}
-
                     <Link href="/Logout" onClick={() => setMenu(false)}>
                       <i className="fa-solid fa-right-from-bracket"></i> Logout
                     </Link>

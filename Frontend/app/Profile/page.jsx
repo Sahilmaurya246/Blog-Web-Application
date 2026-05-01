@@ -21,7 +21,6 @@ function Profile() {
         router.push("/Login");
         return;
       }
-
       try {
         const res = await fetch("http://127.0.0.1:8000/posts/my-posts", {
           headers: {
@@ -43,7 +42,6 @@ function Profile() {
 
     fetchMyPosts();
   }, []);
-
 
   const handleEdit = (post) => {
     setEditingId(post.id);
