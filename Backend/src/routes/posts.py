@@ -41,7 +41,7 @@ def get_posts(db:Session=Depends(get_db)):
             "title": post.title,
             "content": post.content,
             "created_at": post.created_at,
-            "username": post.user.username   # 🔥 MAIN LINE
+            "username": post.user.username   
         })
 
     return result
